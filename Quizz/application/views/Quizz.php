@@ -14,7 +14,7 @@
                         if($data['id']==$rep['id_question']) {?>
                             <div>
                             <input type="radio" id="huey" name="valeur<?php echo $i; ?>" value="<?php echo $rep['typeRep']; ?>" checked>
-                            <?php echo $rep['typeRep']; ?>
+                      
                             <label for="huey"> <?php echo $rep['reponse']; ?></label>
                         </div>
                         <?php }}?>
